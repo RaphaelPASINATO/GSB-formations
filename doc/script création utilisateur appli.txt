@@ -1,0 +1,5 @@
+CREATE USER utigsbformations@localhost IDENTIFIED BY 'secret';
+
+GRANT SELECT, INSERT, UPDATE, DELETE
+ON gsbformations.*
+TO utigsbformations@localhost;

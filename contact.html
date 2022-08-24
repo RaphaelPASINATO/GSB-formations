@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/fontawesome-5.10.2-free/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <!-- Partie de la barre toujours affichée -->
+        <div id="id_div">
+          <a class="navbar-brand" href="#"><img alt="logogsb" src="images/logo GSB.jpg" id="logoGSB" class="logoGSB">
+        </div>
+        <!-- Bouton hamburger affiché à droite si la zone d'affichage est trop petite -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Partie de la barre masquée si la surface d'affichage est insuffisante -->
+        <div class="collapse navbar-collapse" id="myNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="accueilVisiteurs.html"><i class="fas fa-home"></i> Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listeformations.html"><i class="fas fa-list"></i> Liste Formations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="formulaires.html"><i class="far fa-file-alt"></i> Formulaires</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="contact.html"><i class="far fa-envelope"></i> Nous contacter</a>
+                  
+              </li>
+            </ul>
+        </div>
+    </nav>
+    <main class="container py-5">
+        <h1 class="text-primary text-center">Contact</h1>  
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Homme</label>
+            </div>
+        
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Femme</label>
+            </div>
+               
+            <div class="form-group mt-3">
+                <label for="formGroupExampleInput">Nom</label>
+                <input type="text" class="form-control" id="nom" placeholder="Nom">
+            </div>
+        
+            <div class="form-group mt-3">
+                <label for="formGroupExampleInput2">Prénom</label>
+                <input type="text" class="form-control" id="prenom" placeholder="Prénom">
+            </div>
+
+            <div class="form-group mt-3">
+                <label for="exampleFormControlInput1">Email</label>
+                <input type="email" class="form-control" id="address" placeholder="Votre email">
+            </div>
+                           
+            <div class="form-group mt-3">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="Message" rows="3" placeholder="Votre message"></textarea>
+            </div>  
+        </main>
+        <script src="../vendor/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

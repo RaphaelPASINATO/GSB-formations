@@ -1,0 +1,28 @@
+body {
+	font-family: arial !important;
+	background-color: whitesmoke;
+	
+}
+#logoGSB{
+	width:49%;
+	height:100%;
+	max-width: 200px;
+	max-height: 45px;
+	display:block;
+	float:left;
+	background-size:100% auto; /* ADAPTATION de l'image au conteneur */
+}
+
+
+
+
+#valideInscription {
+	color: green;
+}
+
+ 
+
+
+#infosFomrations {
+	font-size:2em;
+}
