@@ -1,0 +1,130 @@
+p {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+
+}
+#navbar a{
+    font-weight: 500;
+    text-align: right;
+    font-size: xx-large;
+}
+#btnNav:hover {
+    background-color:#343a40;
+    border-color: #343a40;
+    color: #1da1f2;
+}
+#btnNav {
+    color:#343a40;
+    background-color:white;
+
+}
+#btnNavSelec {
+    color: #1da1f2;
+    background-color:#343a40;
+    border-color: #343a40;
+
+}
+body {
+    background-color: #1da1f2;
+}
+#fond {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/BackgroundAccueil.jpg) no-repeat;
+    background-size:cover;
+    padding:0em;
+    margin: 0em;
+    height: 600px;
+
+}
+#fondgsbFrais {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: url(../images/raphaell-1.png) no-repeat;
+    background-size:cover;
+    padding:0em;
+    margin: 0em;
+    height: 600px;
+
+}
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+}
+
+#presentation {
+    margin-top: 1em;
+}
+footer {
+    background-color: #343a40;
+    color: white;
+
+}
+
+#card{
+    background-color: #343a40;
+    margin-top: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+
+
+}
+
+#card h5 {
+    color: white;
+    text-align: center;
+}
+
+#card p{
+    font-size: large;
+}
+
+#card a{
+    background-color: #1da1f2;
+}
+
+#projetSousTitre {
+    text-align: center;
+    color: white;
+    margin-top: 1em;
+}
+
+#fondGris {
+    font-size: 2em;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    background:  #343a40;
+    padding: 1em;
+    width: 80%;
+    margin: 1em auto;
+}
+
+#logoGSB {
+    width: 30%;
+    padding-top: 0.5em;
+}
+
+#fondGrisTotal {
+    background-color:#343a40;
+}
+
+.card {
+    border: 3px solid white;
+    border-radius: 15px;
+}
+
+#TitreStage {
+    text-align: center;
+}
